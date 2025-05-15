@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <style>
+        .thumbnail img {
+            width: 350px;
+            height: 200px;
+        }
+
+    </style>
+ 
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="navbar-brand">Photo Gallery</div>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="Home.php">Home</a></li>
+                <li><a href="Wallpaper.php">Wallpaper</a></li>
+                <li><a href="others.php">Others</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Page Header -->
+        <div class="page-header">
+            <h3>Photo Gallery</h3>
+        </div>
+
+        <!-- Thumbnails Row -->
+        <div class="row">
+            <!-- Thumbnails -->
+            <div class="col-md-4">
+                <a href="pic/image 1.jpg" data-lightbox="gallery" data-title="Wallpaper 1" class="thumbnail">
+                    <img src="pic/image 1.jpg" alt="Wallpaper 1">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="pic/image 2.jpg" data-lightbox="gallery" data-title="Wallpaper 2" class="thumbnail">
+                    <img src="pic/image 2.jpg" alt="Wallpaper 2">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="pic/image 3.jpg" data-lightbox="gallery" data-title="Wallpaper 3" class="thumbnail">
+                    <img src="pic/image 3.jpg" alt="Image 3">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="pic/image 4.jpg" data-lightbox="gallery" data-title="Wallpaper 4" class="thumbnail">
+                    <img src="pic/image 4.jpg" alt="Image 4">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="pic/image 5.jpg" data-lightbox="gallery" data-title="Wallpaper 5" class="thumbnail">
+                    <img src="pic/image 5.jpg" alt="Image 5">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="pic/image 6.jpg" data-lightbox="gallery" data-title="Wallpaper 6" class="thumbnail">
+                    <img src="pic/image 6.jpg" alt="Image 6">
+                </a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <p class="text-center" style="padding: 10px;">Created by Coder</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
